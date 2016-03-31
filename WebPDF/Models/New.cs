@@ -15,6 +15,6 @@ namespace WebPDF.Models
         public DateTime LastEdit { get; set; }
         public virtual User user { get; set; }
 
-        public virtual ICollection<Comment> Comments { get; set; }
+        public virtual ICollection<Document> Documents { get; set; }
     }
 }

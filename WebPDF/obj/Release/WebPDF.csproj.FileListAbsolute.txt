@@ -52,3 +52,4 @@ C:\GIT\WebPDF\WebPDF\bin\Microsoft.Owin.Security.Twitter.xml
 C:\GIT\WebPDF\WebPDF\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\GIT\WebPDF\WebPDF\obj\Release\WebPDF.dll
 C:\GIT\WebPDF\WebPDF\obj\Release\WebPDF.pdb
+C:\GIT\WebPDF\WebPDF\obj\Release\WebPDF.csprojResolveAssemblyReference.cache

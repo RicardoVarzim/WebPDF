@@ -29,5 +29,7 @@ namespace WebPDF.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebPDF.Models.Document> Documents { get; set; }
     }
 }

@@ -17,7 +17,6 @@ namespace WebPDF.DAL
         }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<Comment> Comments { get; set; }
         public DbSet<Document> Documents { get; set; }
         public DbSet<Project> Projects { get; set; }
         public DbSet<New> News { get; set; }
@@ -28,5 +27,7 @@ namespace WebPDF.DAL
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public System.Data.Entity.DbSet<WebPDF.Models.DocumentType> DocumentTypes { get; set; }
     }
 }
